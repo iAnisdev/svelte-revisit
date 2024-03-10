@@ -7,7 +7,15 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+		interface User {
+			id?: string;
+			email: string;
+			name: string;
+			age: number;
+		}
 	}
 }
 
-export {};
+export {
+	User
+};
